@@ -1,0 +1,16 @@
+var arr = [1,2,3,4];
+console.log([1,2,3,4].slice(2));
+console.log([1,2,3,4].find(x => x-2));
+console.log([1,2,3,4].shift());
+console.log([1,2,3,4].pop());
+console.log([1,2,3,4].reduce(x => x));
+console.log([1,2,3,4].reduce((x,y) => y));
+console.log([1,2,3,4].reduce((x,y)= x+y,1));
+console.log([1,2,3,4].reduce((x,y)= x*y,2));
+console.log([1,2,3,4].map((x,y)=>x));
+console.log([1,2,3,4].map((x,y)=>y));
+console.log([1,2,3,4].map((x,y)=>x+y));
+console.log([1,2,3,4].filter((x,y)=>x-2));
+console.log([1,2,3,4].filter((x,y)=>y-2));
+console.log([1,2,3,4].filter((x,y)=>y));
+console.log([1,2,3,4].filter((x,y)=>y>2));
